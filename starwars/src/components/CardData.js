@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import CardComponent from "./CardComponent";
 
+
 const CardData = () => {
     const [character, setCharacter] = useState([]);
 
