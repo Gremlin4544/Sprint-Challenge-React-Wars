@@ -1,6 +1,8 @@
 import React from 'react';
+// import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import CardData from "../src/components/CardData";
+
 
 
 const App = () => {
