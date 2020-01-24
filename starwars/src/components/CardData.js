@@ -28,6 +28,7 @@ useEffect(() => {
                     mass={character.mass}
                     gender={character.gender}
                     hair_color={character.hair_color}
+
                 />
             );
         })}
