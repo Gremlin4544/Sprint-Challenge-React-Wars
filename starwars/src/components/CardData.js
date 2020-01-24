@@ -16,7 +16,7 @@ useEffect(() => {
             setCharacter(character);
         })
         .catch(error => {
-            console.log("Data not found", error);
+           // console.log("Data not found", error);
         });
 },[]);
 
