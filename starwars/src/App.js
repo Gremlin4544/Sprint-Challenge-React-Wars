@@ -1,5 +1,9 @@
 import React from 'react';
+// import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import CardData from "../src/components/CardData";
+
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -12,6 +16,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <CardData />
     </div>
   );
 }
